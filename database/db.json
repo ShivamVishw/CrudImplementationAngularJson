@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "student 1",
+      "email": "student1@gmail.com"
+    },
+    {
+      "name": "student 2",
+      "email": "studentfsd2@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Gaurav ",
+      "email": "gaurav@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Reha",
+      "email": "reha@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Renuka",
+      "email": "renuka@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Hey",
+      "email": "renuk32a@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "HeyHey",
+      "email": "renuk34a@gmail.com",
+      "id": 11
+    }
+  ]
+}

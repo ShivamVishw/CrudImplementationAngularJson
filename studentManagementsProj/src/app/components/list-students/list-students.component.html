@@ -1,0 +1,24 @@
+<h3>List-students works!</h3>
+<table datatable [dtOptions]="dtOptions" class="display table table-striped table-bordered dt-responsive">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of studentData">
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>
+          <i (click)="deleteStudent(item.id)" class="fa fa-trash"></i>
+          <span (click)="deleteStudent(item.id)"></span> 
+           &nbsp;&nbsp;
+          <a routerLink="/edit/{{item.id}}"><i class="fa fa-edit"></i></a>
+        </td>
+      </tr>
+    </tbody>
+</table>

@@ -2,7 +2,7 @@
 Implemented crud operations using Angular and json server to store data
 
 
-# 🧰 Tech Stack used:: <br>
+# 🧰 Tech Stack used: <br>
 
 ✨ Angular 16 - The heart and soul of this project. <br>
 ✨ Angular CLI - Simplifying development and boosting productivity. <br>
